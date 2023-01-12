@@ -1,5 +1,5 @@
 import pygame.font
-# creating test branch 2 for conflict
+# creating test branch 3 for conflict
 class Button(object):
 	"""docstring for Button"""
 	def __init__(self, slime_settings, screen, msg):
@@ -7,7 +7,7 @@ class Button(object):
 		self.screen_rect = screen.get_rect()
 
 		self.width, self.height = 200, 50
-		self.button_color = (0, 255, 120)
+		self.button_color = (0, 255, 240)
 		self.txt_color = (255, 255, 255)
 		self.font = pygame.font.SysFont(None, 48)
 
