@@ -7,7 +7,7 @@ from game_stats import GameStats
 from button import Button 
 from scoreboard import Scoreboard
 #TODO add possibility to shoot down if slimes are under paimon
-
+# test line for git check
 def run_game():
 
 	pygame.init()
